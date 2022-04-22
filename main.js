@@ -247,7 +247,7 @@ function getStory() {
             ]
         },
         run: {
-            title: 'Regen',
+            title: 'Renn!',
             story: `Du entscheidest dich wegzurennen. Der Häuptling merkt, dass etwas nicht stimmt und schreit seinen Soldaten etwas zu. Das Ganze macht dir unheimlich Angst du du willst dich umdrehen, als du plötzlich einen stechenden Schmerz in der Brust spürst. Du greifst zu deinem Rücken und merkst wie etwas auf deiner Hand krabbelt. Du schaust es an und du erblickst einen knallgelben Giftfrosch. Dir wird schwarz vor Augen...`,
             choices: [
                 {
