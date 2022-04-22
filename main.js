@@ -289,10 +289,41 @@ function getStory() {
                     destination: 'date'
                 }
             ]
+        },
+        party: {
+            title: 'Die Party',
+            story: `Du gehst natürlich auf deine Geburtstagsparty. Was denn sonst?! Die Party ist grandios und du bist schon ganz gespannt was Leon dir schenken wird... Doch als du bei der Party ankommst, hält dich der Türsteher auf. Du protestierst und siehst nur noch eine Faust auf dich zu fliegen... `,
+            choices: [
+                {
+                    choice: "Weiter",
+                    destination: 'start'
+                }
+            ]
+        },
+        date: {
+            title: 'Das Date',
+            story: `Das Date kannst du dir einfach nicht entgehen lassen. Du triffst dich mit einer sehr hübschen Dame. Doch du merkst, dass sie schön ist, aber dafür kann sie nichts. Nicht mal lesen und schreiben... Trotdem läuft das Date super und am Schluss geht sie auf die Knie und fragt dich: "Willst du?"`,
+            choices: [
+                {
+                    choice: "Ja!",
+                    destination: 'start'
+                },
+                {
+                    choice: "Nein!",
+                    destination: 'drugs'
+                }
+            ]
+        },
+        drugs: {
+            title: 'Die Nacht',
+            story: `Du merkst, wie dir schwummrig wird. Da hat die Olle dir doch glatt einen Liebestrank und andere Drogen in den Cocktail geschüttet. Du hast die grössten Liebesgefühle und ihr verbringt eine grandiose Nacht. Ihr entscheidet euch noch in dieser Nacht gemeinsam zu heiraten. Und nein du kannst keine Entscheidungen mehr treffen, also nicht high raten. Ihr lauft zum Pastor, wo du merkst, dass es der Rapkünstler Alligatoah ist und mit mitleidigem Blick dich anschaut: "Ich weiss dass du sie nicht highraten willst, jedoch wollte Gott es so. Als Entschädigung darfst du aber mit Leon auf mein Konzert im Jahr 2023 kommen. Tut mir leid". Du weisst nicht ob du lachen oder weinen sollst... `,
+            choices: [
+                {
+                    choice: "Weiter",
+                    destination: 'start'
+                }
+            ]
         }
-        
-
-
     }
 }
 
