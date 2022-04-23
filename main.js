@@ -245,6 +245,15 @@ function getStory() {
                     destination: 'allido'
                 }
             ]
+        }, panda: {
+            title: 'Wenn dir der geröstete Panda nicht schmeckt, lass liegen',
+            story: `Als du den ersten Bissen in das saftige Fleisch machst, merkst du dass das keine so gute Idee war. Hättest du mal lieber auf Alligatoah gehört...`,
+            choices: [
+                {
+                    choice: "Weiter",
+                    destination: 'start'
+                }
+            ]
         },
         run: {
             title: 'Renn!',
